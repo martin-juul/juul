@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --body-bg: #282c34;
+}
+
+body {
+  background: var(--body-bg);
+}
